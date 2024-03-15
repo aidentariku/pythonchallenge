@@ -5,7 +5,7 @@ import csv
 import os
 
 # Load csv data from Resources folder
-csv_file_path = os.path.join('Resources', "budget_data.csv")
+csv_file_path = "C:\\Users\\AidenTariku\\Downloads\\Starter_Code (15)\\Starter_Code\\PyBank\\Resources\\budget_data.csv"
 
 # Create variables
 total_months = 0
@@ -66,7 +66,7 @@ summary = (
 print(summary)
 
 # Set location in local repository to print results of data summary
-output_file_path = os.path.join('Analysis', "budget_data_output.txt")
+output_file_path = "C:\\Users\\AidenTariku\\Downloads\\Starter_Code (15)\\Starter_Code\\PyBank\\Analysis\\budget_data_output.txt"
 
 # Print out data summary results to .txt file
 with open(output_file_path, "w") as txt_file:
